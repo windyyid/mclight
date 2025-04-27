@@ -34,4 +34,4 @@ Make sure you have the following installed:
    node index
    ```
    
-**❤ BIG THANKS TO PERMENMD & STARX ❤**
+## ❤ BIG THANKS TO PERMENMD & STARX ❤

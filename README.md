@@ -8,12 +8,12 @@
 
 ## Setup 🛠️
 
-Make sure you have the following installed:
+🔔 Make Sure You Have the Following Installed:
 
-- Node.js (v14 or above) 🌱
+- Node.js (v17 Or Above) 🌱
 - npm (Node Package Manager) 📦
 
-### Development Mode 🔧
+## Command ⚙
 
 1. Clone This Repository:
 

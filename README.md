@@ -1,5 +1,5 @@
 # MCLIGHT / PERMENMD
-```PermenMD Recode
-Password: windycantik```
+PermenMD Recode
+Password: windycantik
 
 **BIG THANKS TO PERMENMD**

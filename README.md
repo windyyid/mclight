@@ -5,9 +5,8 @@
 - 📦 File Size: 1.2MB
 - 📡 Free Proxy: https://raw.githubusercontent.com/windyyid/windyyid/refs/heads/main/proxy.txt
 - 📡 Free User Agents: https://raw.githubusercontent.com/windyyid/windyyid/refs/heads/main/useragents.txt
-## Setup 🛠️
 
-### Prerequisites 📦
+## Setup 🛠️
 
 Make sure you have the following installed:
 
@@ -16,17 +15,23 @@ Make sure you have the following installed:
 
 ### Development Mode 🔧
 
-1. Clone this repository:
+1. Clone This Repository:
 
    ```bash
-   git clone https://github.com/sammwyy/mikumikubeam.git
-   cd mikumikubeam
+   git clone https://github.com/windyyid/mclight.git
+   cd mclight
    ```
 
-2. Install the required dependencies:
+2. Install The Required Dependencies:
 
    ```bash
    npm install
+   ```
+   
+3. Run And Have Fun:
+
+   ```bash
+   node index
    ```
    
 **❤ BIG THANKS TO PERMENMD & STARX ❤**

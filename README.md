@@ -1,6 +1,5 @@
 # MCLIGHT / PERMENMD / STARX
-🚀 PermenMD Recode With StarX!!
-🚀 Free And No Enc <3
+🚀 PermenMD Recode With StarX!! - 🚀 Free And No Enc <3
 
 - 🔑 Password: windycantik
 - 📦 File Size: 1.2MB

@@ -2,6 +2,9 @@
 PermenMD Recode With StarX!!
 Free And No Enc <3
 
-- 🔑 Password: windycantik 
+- 🔑 Password: windycantik
+- 📦 File Size: 900kb
+- 📡 Free Proxy: https://raw.githubusercontent.com/windyyid/windyyid/refs/heads/main/proxy.txt
+- 📡 Free User Agents: https://raw.githubusercontent.com/windyyid/windyyid/refs/heads/main/useragents.txt
 
 **❤ BIG THANKS TO PERMENMD & STARX ❤**

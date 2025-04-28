@@ -1,7 +1,10 @@
 # ⚡ MCLIGHT / PERMENMD / STARX ⚡
 🚀 PermenMD Recode With StarX!! - 🚀 Free And No Enc <3
 
-- 🔑 Password: windycantik
+- 🔑 Password:
+```bash
+windycantik
+```
 - 📦 File Size: 1.2MB
 - 📡 Free Proxy http/https: https://raw.githubusercontent.com/windyyid/windyyid/refs/heads/main/proxy.txt
 - 📡 Free User Agents: https://raw.githubusercontent.com/windyyid/windyyid/refs/heads/main/useragents.txt

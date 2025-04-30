@@ -591,37 +591,39 @@ const creatorCredits = `
 Created And Coded Full By PermenMD
 
 Thx To:
-ChatGPT ( Fixing Error )
-IrfanNotSepuh ( Gatau Ngapain )
-Windy ( Recreating PermenMD To MCLIGHT )
-My Family
-PLN Dan Wifi
-Github
-YouTube ( Music )
-Allah SWT
+- Allah SWT الله
+- ChatGPT ( Fixing Error )
+- Claude ( Fixing Error + Creating Another Methods)
+- IrfanNotSepuh ( Gatau Ngapain )
+- Windy ( Recreating PermenMD/StarX To MCLIGHT )
+- My Family
+- PLN Dan Wifi
+- Github
+- YouTube ( Music )
+- Spotify
 `
 permen.question('[\x1b[1m\x1b[32mMCLIGHT Console\x1b[0m] > \n', (input) => {
   const [command, ...args] = input.trim().split(/\s+/);
 
   if (command === 'help') {
     console.log(`
-| methods      | show list of available methods
-| track-ip     | track ip address with info
-| subdo-finder | find all subdomain from domain
-| kill-wifi    | kill your wifi (termux/linux/windows only)
-| kill-ssh     | kill VPS Access 
-| kill-otp     | kill WhatsApp OTP Verification
-| kill-ping    | sending death pinger
-| samp         | S.A.M.P Flooder
-| mc-flood     | Minecraft Bot Flooder
-| attack       | launch ddos attack
-| udp-raw      | launch udp flood attack
-| kill-do      | digital ocean killer
-| ongoing      | show ongoing attack
-| news         | show latest permenmd news
-| ai           | Chat With Ai
-| credits      | show creator of these tools
-| clear        | clear terminal
+╔ methods      | show list of available methods
+╠ track-ip     | track ip address with info
+╠ subdo-finder | find all subdomain from domain
+╠ kill-wifi    | kill your wifi (termux/linux/windows only)
+╠ kill-ssh     | kill VPS Access 
+╠ kill-otp     | kill WhatsApp OTP Verification
+╠ kill-ping    | sending death pinger
+╠ samp         | S.A.M.P Flooder
+╠ mc-flood     | Minecraft Bot Flooder
+╠ attack       | launch ddos attack
+╠ udp-raw      | launch udp flood attack
+╠ kill-do      | digital ocean killer
+╠ ongoing      | show ongoing attack
+╠ news         | show latest permenmd news
+╠ ai           | Chat With Ai
+╠ credits      | show creator of these tools
+╚ clear        | clear terminal
 `);
     sigma();
   } else if (command === 'methods') {

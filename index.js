@@ -1,6 +1,4 @@
-// JANGAN DI HAPUS //
 #!/usr/bin/env node
-// JANGAN DI HAPUS //
 
 const { exec, spawn  } = require('child_process')
 const readline = require('readline')

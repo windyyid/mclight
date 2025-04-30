@@ -79,7 +79,7 @@ async function bootup() {
     
     const secretBangetJir = await fetch('https://raw.githubusercontent.com/windyyid/windyyid/refs/heads/main/pass.txt');
     const password = await secretBangetJir.text();
-    await console.log(`Login Key Required`)
+    await console.log(`[SONAR] Login Key Required`)
     permen.question('[\x1b[1m\x1b[31mMCLIGHT Security\x1b[0m]: \n', async (skibidi) => {
       if (skibidi === password.trim()) {
         console.log(`> Successfuly Logged`)
@@ -477,9 +477,9 @@ console.log(`
 				   Minecraft Flood Attack Launched
                    
 ========================================================================
-Target   : ${target}
-Duration : ${duration}
-Methods  : Minecraft Flooder`)
+╔ Target   » ${target}
+╠ Duration » ${duration}
+╚ Methods  » Minecraft Flooder`)
 } catch (error) {
   console.log(`Oops Something Went Wrong`)
     sigma()
@@ -514,9 +514,9 @@ console.log(`
 					SA MP Flood Attack Launched
                     
 ========================================================================
-Target   : ${target}
-Duration : ${duration}
-Methods  : SAMP Flooder`)
+╔ Target   » ${target}
+╠ Duration » ${duration}
+╚ Methods  » SAMP Flooder`)
 } catch (error) {
   console.log(`Oops Something Went Wrong`)
     sigma()
@@ -588,7 +588,7 @@ const latestNews = await getNews.text();
 const creatorCredits = `
 Created And Coded Full By PermenMD
 
-Thx To:
+<3 Thx To:
 - Allah SWT الله
 - ChatGPT ( Fixing Error )
 - Claude ( Fixing Error + Creating Another Methods)
@@ -600,7 +600,7 @@ Thx To:
 - YouTube ( Music )
 - Spotify
 `
-permen.question('[\x1b[1m\x1b[32mMCLIGHT Console\x1b[0m] > \n', (input) => {
+permen.question('[\x1b[1m\x1b[32mroot@mclight:~#\x1b[0m] > \n', (input) => {
   const [command, ...args] = input.trim().split(/\s+/);
 
   if (command === 'help') {

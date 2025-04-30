@@ -5,7 +5,7 @@
 ```bash
 windycantik
 ```
-- 📦 File Size: 1.2MB
+- 📦 File Size: 2.2MB
 - 📡 Free Proxy http/https: https://raw.githubusercontent.com/windyyid/windyyid/refs/heads/main/proxy.txt
 - 📡 Free User Agents: https://raw.githubusercontent.com/windyyid/windyyid/refs/heads/main/useragents.txt
 

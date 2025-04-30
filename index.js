@@ -80,19 +80,19 @@ async function bootup() {
     const secretBangetJir = await fetch('https://raw.githubusercontent.com/windyyid/windyyid/refs/heads/main/pass.txt');
     const password = await secretBangetJir.text();
     await console.log(`[SONAR] Login Key Required`)
-    permen.question('[\x1b[1m\x1b[31mSONAR\x1b[0m]» \n', async (skibidi) => {
+    permen.question('[\x1b[1m\x1b[31mSONAR\x1b[0m] » \n', async (skibidi) => {
       if (skibidi === password.trim()) {
-        console.log(`> Successfuly Logged`)
+        console.log(`» Successfuly Logged`)
         await scrapeProxy()
         console.log(`|| ▓▓▓▓▓▓▓░░░ || 70%`)
         await scrapeUserAgent()
         console.log(`|| ▓▓▓▓▓▓▓▓▓▓ || 100%`)
         await sleep(700)
         console.clear()
-        console.log(`> Welcome To MCLIGHT Tools ${version}`)
+        console.log(`» Welcome To MCLIGHT Tools ${version}`)
         await sleep(1000)
 		    await banner()
-        console.log(`> Type "help" For Showing All Available Command`)
+        console.log(`» Type "help" For Showing All Available Command`)
         sigma()
       } else {
         console.log(`> Wrong Key`)
@@ -120,7 +120,7 @@ console.log(`
 WiFi Killer Has Started
 Type exit To Stop
 `);
-permen.question('[\x1b[1m\x1b[31mMCLIGHT Wifi Killer\x1b[0m]: \n', async (yakin) => {
+permen.question('[\x1b[1m\x1b[31mMCLIGHT Wifi Killer\x1b[0m] » \n', async (yakin) => {
 if (yakin === 'exit') {
   startKillwiFi.kill('SIGKILL')
   console.log(`WiFi Killer Has Ended`)
@@ -600,7 +600,7 @@ Created And Coded Full By PermenMD
 - YouTube ( Music )
 - Spotify
 `
-permen.question('[\x1b[1m\x1b[32mroot@mclight:~#\x1b[0m] > \n', (input) => {
+permen.question('[\x1b[1m\x1b[32mroot@mclight:~#\x1b[0m] » \n', (input) => {
   const [command, ...args] = input.trim().split(/\s+/);
 
   if (command === 'help') {

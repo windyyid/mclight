@@ -80,7 +80,7 @@ async function bootup() {
     const secretBangetJir = await fetch('https://raw.githubusercontent.com/windyyid/windyyid/refs/heads/main/pass.txt');
     const password = await secretBangetJir.text();
     await console.log(`[SONAR] Login Key Required`)
-    permen.question('[\x1b[1m\x1b[31mMCLIGHT Security\x1b[0m]: \n', async (skibidi) => {
+    permen.question('[\x1b[1m\x1b[31mSONAR\x1b[0m]» \n', async (skibidi) => {
       if (skibidi === password.trim()) {
         console.log(`> Successfuly Logged`)
         await scrapeProxy()
@@ -109,7 +109,7 @@ async function bootup() {
       process.exit()
     }
   } catch (error) {
-    console.log(`Are You Online?`)
+    console.log(`YAHAHA MATI`)
   }
 }
 // [========================================] //
@@ -165,14 +165,14 @@ const ipInfo = await response.json();
 					  Tracking IP Address Result 
                       
 ========================================================================
- - Flags: ${ipInfo.country_flag}
- - Country: ${ipInfo.country_name}
- - Capital: ${ipInfo.country_capital}
- - City: ${ipInfo.city}
- - ISP: ${ipInfo.isp}
- - Organization: ${ipInfo.organization}
- - lat: ${ipInfo.latitude}
- - long: ${ipInfo.longitude}
+ ╔ Flags » ${ipInfo.country_flag}
+ ╠ Country » ${ipInfo.country_name}
+ ╠ Capital » ${ipInfo.country_capital}
+ ╠ City » ${ipInfo.city}
+ ╠ ISP » ${ipInfo.isp}
+ ╠ Organization » ${ipInfo.organization}
+ ╠ lat » ${ipInfo.latitude}
+ ╚ long » ${ipInfo.longitude}
       
  Google Maps: https://www.google.com/maps/place/${additionalInfo.latitude}+${additionalInfo.longitude}
 `)
@@ -234,12 +234,12 @@ console.log(`
 					  Attack Has Been Launched
                       
 ========================================================================
-Target   : ${target}
-Duration : ${duration}
-Methods  : ${methods}
-ISP      : ${result.isp}
-Ip       : ${result.query}
-AS       : ${result.as}
+╔ Target   » ${target}
+╠ Duration » ${duration}
+╠ Methods  » ${methods}
+╠ ISP      » ${result.isp}
+╠ Ip       » ${result.query}
+╚ AS       » ${result.as}
 `)
 } catch (error) {
   console.log(`Oops Something Went wrong`)
@@ -326,11 +326,11 @@ console.log(`
 					SSH Killer Has Been Launched
                     
 ========================================================================
-Target   : ${target}
-Duration : ${duration}
-ISP      : ${result.isp}
-Ip       : ${result.query}
-AS       : ${result.as}
+╔ Target   » ${target}
+╠ Duration » ${duration}
+╠ ISP      » ${result.isp}
+╠ Ip       » ${result.query}
+╚ AS       » ${result.as}
 `)
 } catch (error) {
   console.log(`Oops Something Went Wrong`)
@@ -365,8 +365,8 @@ console.log(`
                        OTP Killer Has Been Launched
                            
 ========================================================================
-Target   : ${target}
-Duration : ${duration}
+╔ Target   » ${target}
+╚ Duration » ${duration}
 
 Spamming WhatsApp OTP That Can Annoy Someone Or Maybe Make Them Cannot Login`)
 } catch (error) {
@@ -402,9 +402,9 @@ console.log(`
 					VPS Killer Has Been Launched
                     
 ========================================================================
-Target   : ${target}
-Duration : ${duration}
-Methods  : Digital Ocean Killer`)
+╔ Target   » ${target}
+╠ Duration » ${duration}
+╚ Methods  » Digital Ocean Killer`)
 } catch (error) {
   console.log(`Oops Something Went Wrong`)
 }
@@ -441,9 +441,9 @@ console.log(`
 					UDP Raw Flood Attack Launched
                     
 ========================================================================
-Target   : ${target}
-Duration : ${duration}
-Methods  : UDP Raw`)
+╔ Target   » ${target}
+╠ Duration » ${duration}
+╚ Methods  » UDP Raw`)
 } catch (error) {
   console.log(`Oops Something Went Wrong`)
 }

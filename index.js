@@ -605,39 +605,39 @@ permen.question('[\x1b[1m\x1b[32mMCLIGHT Console\x1b[0m] > \n', (input) => {
 
   if (command === 'help') {
     console.log(`
-╔ methods      | show list of available methods
-╠ track-ip     | track ip address with info
-╠ subdo-finder | find all subdomain from domain
-╠ kill-wifi    | kill your wifi (termux/linux/windows only)
-╠ kill-ssh     | kill VPS Access 
-╠ kill-otp     | kill WhatsApp OTP Verification
-╠ kill-ping    | sending death pinger
-╠ samp         | S.A.M.P Flooder
-╠ mc-flood     | Minecraft Bot Flooder
-╠ attack       | launch ddos attack
-╠ udp-raw      | launch udp flood attack
-╠ kill-do      | digital ocean killer
-╠ ongoing      | show ongoing attack
-╠ news         | show latest permenmd news
-╠ ai           | Chat With Ai
-╠ credits      | show creator of these tools
-╚ clear        | clear terminal
+╔ methods      » Show List Avaible Methods
+╠ track-ip     » Track Ip Address
+╠ subdo-finder » Find Subdomain
+╠ kill-wifi    » Kill Your Wifi | Cocok Buat Owe Hantam
+╠ kill-ssh     » Kill VPS Access 
+╠ kill-otp     » Kill WhatsApp OTP Verification
+╠ kill-ping    » Sending Death Pinger
+╠ samp         » S.A.M.P Flooder
+╠ mc-flood     » Minecraft Bot Flooder
+╠ attack       » Launch Attack With Methods
+╠ udp-raw      » Udp Flood Attack
+╠ kill-do      » Digital Ocean Killer | Risk
+╠ ongoing      » Show Ongoing Attack
+╠ news         » Show MCLIGHT News
+╠ ai           » Are This Even Work?
+╠ credits      » <3
+╚ clear        » Clear Terminal
 `);
     sigma();
   } else if (command === 'methods') {
     console.log(`
 [=========================================]
-|| flood      || HTTP(s) Flood DoS
-|| tls        || TLS 1.3 
-|| strike     || Best DDoS methods
-|| kill       || Bypass Cf DDoS methods
-|| raw        || Huge RPS Flexing XD
-|| bypass     || Bypass With High Power
-|| thunder    || Massive Power Methods
-|| storm      || The Raining Request
-|| rape       || Bypass Protection
-|| destroy    || Kill That Socket
-|| slim       || Oh Is Fit There
+╔ flood      » HTTP(s) Flood DoS
+╠ tls        » TLS 1.3 
+╠ strike     » Best DDoS methods
+╠ kill       » Bypass Cf DDoS methods
+╠ raw        » Huge RPS Flexing XD
+╠ bypass     » Bypass With High Power
+╠ thunder    » Massive Power Methods
+╠ storm      » The Raining Request
+╠ rape       » Bypass Protection
+╠ destroy    » Kill That Socket
+╚ slim       » Oh Is Fit There
 [=========================================]
 `);
     sigma();

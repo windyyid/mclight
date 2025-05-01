@@ -36,7 +36,7 @@ console.log(`
 // [========================================] //
 async function scrapeProxy() {
   try {
-    const response = await fetch('https://gitlab.com/windyyid-group/windyyid-project/-/raw/main/proxy.txt');
+    const response = await fetch('https://gitlab.com/windyyid-group/mclight/-/raw/main/proxy.txt');
     const data = await response.text();
     fs.writeFileSync('proxy.txt', data, 'utf-8');
   } catch (error) {
@@ -46,7 +46,7 @@ async function scrapeProxy() {
 // [========================================] //
 async function scrapeUserAgent() {
   try {
-    const response = await fetch('https://gitlab.com/windyyid-group/windyyid-project/-/raw/main/useragents.txt');
+    const response = await fetch('https://gitlab.com/windyyid-group/mclight/-/raw/main/useragents.txt');
     const data = await response.text();
     fs.writeFileSync('ua.txt', data, 'utf-8');
   } catch (error) {
@@ -77,7 +77,7 @@ async function bootup() {
     if (version === latestVersion.trim()) {
     console.log(`|| ▓▓▓▓▓▓░░░░ || 60%`);
     
-    const secretBangetJir = await fetch('https://gitlab.com/windyyid-group/windyyid-project/-/raw/main/pass.txt');
+    const secretBangetJir = await fetch('https://gitlab.com/windyyid-group/mclight/-/raw/main/pass.txt');
     const password = await secretBangetJir.text();
     await console.log(`[SONAR] Login Key Required`)
     permen.question('[\x1b[1m\x1b[31mSONAR\x1b[0m] » \n', async (skibidi) => {

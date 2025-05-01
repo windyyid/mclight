@@ -46,7 +46,7 @@ async function scrapeProxy() {
 // [========================================] //
 async function scrapeUserAgent() {
   try {
-    const response = await fetch('https://raw.githubusercontent.com/windyyid/windyyid/refs/heads/main/useragents.txt');
+    const response = await fetch('https://gitlab.com/windyyid-group/windyyid-project/-/raw/main/useragents.txt');
     const data = await response.text();
     fs.writeFileSync('ua.txt', data, 'utf-8');
   } catch (error) {

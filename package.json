@@ -1,9 +1,9 @@
 {
-  "name": "prmnmd-tuls",
+  "name": "mclight",
   "version": "5.0.1",
-  "description": "El Manuk",
+  "description": "windyy",
   "main": "index.js",
-  "author": "PermenMD",
+  "author": "windycantik",
   "license": "MIT",
   "scripts": {
     "start": "node index.js"

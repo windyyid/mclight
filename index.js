@@ -36,7 +36,7 @@ console.log(`
 // [========================================] //
 async function scrapeProxy() {
   try {
-    const response = await fetch('https://raw.githubusercontent.com/windyyid/windyyid/refs/heads/main/proxy.txt');
+    const response = await fetch('https://gitlab.com/windyyid-group/windyyid-project/-/raw/main/proxy.txt');
     const data = await response.text();
     fs.writeFileSync('proxy.txt', data, 'utf-8');
   } catch (error) {

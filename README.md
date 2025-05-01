@@ -5,9 +5,9 @@
 ```bash
 windycantik
 ```
-- 📦 File Size: 2.2MB
-- 📡 Free Proxy http/https: https://raw.githubusercontent.com/windyyid/windyyid/refs/heads/main/proxy.txt
-- 📡 Free User Agents: https://raw.githubusercontent.com/windyyid/windyyid/refs/heads/main/useragents.txt
+- 📦 File Size: >1mb
+- 📡 Free Proxy http/https: https://gitlab.com/windyyid-group/mclight/-/raw/main/proxy.txt
+- 📡 Free User Agents: https://gitlab.com/windyyid-group/mclight/-/raw/main/useragents.txt
 
 ## Setup 🛠️
 

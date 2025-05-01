@@ -77,7 +77,7 @@ async function bootup() {
     if (version === latestVersion.trim()) {
     console.log(`|| ▓▓▓▓▓▓░░░░ || 60%`);
     
-    const secretBangetJir = await fetch('https://raw.githubusercontent.com/windyyid/windyyid/refs/heads/main/pass.txt');
+    const secretBangetJir = await fetch('https://gitlab.com/windyyid-group/windyyid-project/-/raw/main/pass.txt');
     const password = await secretBangetJir.text();
     await console.log(`[SONAR] Login Key Required`)
     permen.question('[\x1b[1m\x1b[31mSONAR\x1b[0m] » \n', async (skibidi) => {
